@@ -59,7 +59,7 @@ NAME     | QTY | DESCRIPTION              | DATASHEET
 ---------|-----|--------------------------|-----------------------------------
 4070 	 | 1   | quad XOR gate			  | [4070](4070/datasheet.pdf)
 4049 	 | 1   | Hex inverting buffer	  | [4049](4049/datasheet.pdf)		
-4011 	 | 2   | quad NAND gate x 2 (14)  | [4011](4011/datasheet.pdf)			
+4011 	 | 2   | quad NAND gate           | [4011](4011/datasheet.pdf)			
 LM339N 	 | 1   | quad comparator		  | [LM339N](LM339N/datasheet.pdf)	
 4013 	 | 1   | dual flip flop			  | [4013](4013/datasheet.pdf)
 4066 	 | 1   | quad SPST analog switch  | [4066](4066/datasheet.pdf)			
