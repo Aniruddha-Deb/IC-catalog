@@ -13,7 +13,7 @@ NAME     | QTY | DESCRIPTION              | DATASHEET
 ---------|-----|--------------------------|-----------------------------------
 555      | 6   | Timer IC                 | [555](555/datasheet.pdf)          
 4060     | 4   | Ripple binary counter    | [4060](4060/datasheet.pdf)        
-4046     | 1  | Phase locked loop         | [4046](4046/datasheet.pdf)     
+4046     | 1   | Phase locked loop         | [4046](4046/datasheet.pdf)     
 4029     | 1   | Decade/Binary counter    | [4029](4029/datasheet.pdf)
 4017     | 1   | decade counter           | [4017](4017/datasheet.pdf)
 
