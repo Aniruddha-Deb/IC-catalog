@@ -28,7 +28,7 @@ NAME     | QTY | DESCRIPTION              | DATASHEET
 ---------|-----|--------------------------|-----------------------------------
 TLO72CP  | 5   | General Purpose Op Amp   | [TLO72CP](TLO72CP/datasheet.pdf)  
 TLC272CP | 1   | Rail to Rail Op Amps     | [TLC272](TLC272/datasheet.pdf)    
-386N     | 1   | Audio power amplifier    | [386N](386N/datasheet.pdf)        
+~~386N   | 0   | Audio power amplifier~~  | [386N](386N/datasheet.pdf)
 CPAP0332 | 2   | Power MOSFET array       | [CPAP0332](CPAP0332/datasheet.pdf)
 
 ### <a name="Encoders"></a>Encoders
