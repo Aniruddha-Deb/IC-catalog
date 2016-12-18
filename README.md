@@ -13,7 +13,7 @@ NAME     | QTY | DESCRIPTION              | DATASHEET
 ---------|-----|--------------------------|-----------------------------------
 555      | 6   | Timer IC                 | [555](555/datasheet.pdf)          
 4060     | 4   | Ripple binary counter    | [4060](4060/datasheet.pdf)        
-4046     | 12  | Phase locked loop        | [4046](4046/datasheet.pdf)     
+4046     | 1  | Phase locked loop         | [4046](4046/datasheet.pdf)     
 4029     | 1   | Decade/Binary counter    | [4029](4029/datasheet.pdf)
 4017     | 1   | decade counter           | [4017](4017/datasheet.pdf)
 
@@ -59,7 +59,7 @@ NAME     | QTY | DESCRIPTION              | DATASHEET
 ---------|-----|--------------------------|-----------------------------------
 4070 	 | 1   | quad XOR gate			  | [4070](4070/datasheet.pdf)
 4049 	 | 1   | Hex inverting buffer	  | [4049](4049/datasheet.pdf)		
-4011 	 | 1   | quad NAND gate x 2 (14)  | [4011](4011/datasheet.pdf)			
+4011 	 | 2   | quad NAND gate x 2 (14)  | [4011](4011/datasheet.pdf)			
 LM339N 	 | 1   | quad comparator		  | [LM339N](LM339N/datasheet.pdf)	
 4013 	 | 1   | dual flip flop			  | [4013](4013/datasheet.pdf)
 4066 	 | 1   | quad SPST analog switch  | [4066](4066/datasheet.pdf)			
