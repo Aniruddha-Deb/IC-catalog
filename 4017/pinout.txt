@@ -1,0 +1,40 @@
+Pinout of 4017 - Decade counter
+--------------------------------------------------------------------------------
+
+The 74HC4017 is a 4stage Johnson decade counter with 10 decoded outputs.
+
+Advancing the counter
+----------------------
+The counter is advanced by either a LOW-to-HIGH transition at CP0 while CP1 is 
+LOW or a HIGH-to-LOW transition at CP1 while CP0 is HIGH. 
+
+Chaining counters
+--------------------------
+When cascading counters, the Q5-9 output, which is LOW while the counter is in 
+states 5, 6, 7, 8 and 9, can be used to drive the CP0 input of the next counter. 
+
+Resetting the counter
+----------------------
+A HIGH on MR resets the counter to zero (Q0 = Q5-9 = HIGH; Q1 to Q9 = LOW) 
+independent of the clock inputs (CP0 and CP1). 
+
+Inputs include clamp diodes. This enables the use of current limiting resistors 
+to interface inputs to voltages in excess of Vcc .
+
+                Q5    * 01  U  16 *    Vcc
+                Q1    * 02     15 *    MR
+                Q0    * 03     14 *    CP0
+                Q2    * 04     13 *    CP'1
+                Q6    * 05     12 *    Q'5-9
+                Q7    * 06     11 *    Q9
+                Q3    * 07     10 *    Q4
+                GND   * 08     09 *    Q8
+
+Q0-9      Decoded output
+GND       Ground
+Vcc       Power source (Max +7v, Typ +5)
+Q'5-9     Carry output (active low)
+MR        Reset
+CP0       Clock input low to high edge triggered
+CP'1      Clock input high to low edge triggered
+
