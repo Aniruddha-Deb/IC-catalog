@@ -57,8 +57,9 @@ NAME     | QTY | PINS| DESCRIPTION              | DATASHEET
 ### <a name="ShiftRegisters"></a>Digital Circuits and Shift Registers
 NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                         
 ---------|-----|-----|--------------------------|-----------------------------------
-74194    | 10  | 16  | 4 bit shift register     | [74194](74194/datasheet.pdf)
-74595    | 10  | 16  | 8 bit shift register     | [74595](74595/datasheet.pdf)
+74194    | 10  | 16  | 4 bit <-> shift register | [74194](74194/datasheet.pdf)
+74595    | 10  | 16  | 8 bit SIPO shift register| [74595](74595/datasheet.pdf)
+74165    | 5   | 16  | 8 bit PISO shift register| [74165](74165/datasheet.pdf)
 74LS24   | 5   | 20  | 3 state octal buffer     | [7424](7424/datasheet.pdf)
 7404     | 5   | 14  | Hex inverter             | [7404](7404/datasheet.pdf)
 
