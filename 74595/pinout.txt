@@ -1,0 +1,86 @@
+Pinout of 74HC595 - SIPO shift register
+--------------------------------------------------------------------------------
+
+The 74HC595 is an 8-bit serial-in/serial or parallel-out shift register with a
+storage register and 3-state outputs. 
+
+Both the shift and storage register have separate clocks. 
+
+Reset
+-----------------
+A LOW on MR_ will reset the shift register. 
+
+Data shift
+-----------------
+Data is shifted on the LOW-to-HIGH transitions of the SHCP input. 
+
+Data transfer to storage registers
+-----------------------------------
+The data in the shift register is transferred to the storage register on a 
+LOW-to-HIGH transition of the STCP input.
+
+NOTE: If both clocks are connected together, the shift register will always be 
+one clock pulse ahead of the storage register.
+
+Data transfer to output
+------------------------
+Data in the storage register appears at the output whenever the output enable 
+input (OE) is LOW. A HIGH on OE causes the outputs to assume a high-impedance 
+OFF-state. Operation of the OE input does not affect the state of the registers. 
+
+Inputs include clamp diodes. This enables the use of current limiting
+resistors to interface inputs to voltages in excess of V CC .
+
+Q0-7  Parallel data output
+GND   Ground (0 V)
+Q7S   Serial data output
+MR_   Master reset (active LOW)
+SHCP  Shift register clock input
+STCP  Storage register clock input
+OE_   Output enable input (active LOW)
+DS    Serial data input
+Vcc   Supply voltage
+
+                Q1    * 01  U  16 *    Vcc
+                Q2    * 02     15 *    Q0
+                Q3    * 03     14 *    DS
+                Q4    * 04     13 *    OE_
+                Q5    * 05     12 *    STCP
+                Q6    * 06     11 *    SHCP
+                Q7    * 07     10 *    MR_
+                GND   * 08     09 *    Q78
+
+
+Connection of Pi3 to drive 74595
+================================================================================
+
+            * 1      2  * 
+            * 3      4  * 
+            * 5      6  * 
+            * 7      8  * 
+            * 9      10 * 
+            * 11     12 * 
+            * 13     14 * 
+            * 15     16 * 
+            * 17     18 * 
+MOSI (SPI)  * 19     20 * 
+MISO (SPI)  * 21     22 * 
+SCLK (SPI)  * 23     24 * CE0 (SPI)
+            * 25     26 * 
+            * 27     28 * 
+            * 29     30 * 
+            * 31     32 * 
+            * 33     34 * 
+            * 35     36 * 
+            * 37     38 * 
+GND         * 39     40 * 
+
+
+              * 01  U  16 *    Vcc
+              * 02     15 *    Q0
+              * 03     14 *    DS     MOSI (19)
+              * 04     13 *    OE_
+              * 05     12 *    STCP   CE0  (24)
+              * 06     11 *    SHCP   SCLK (23)
+              * 07     10 *    MR_
+GND (39) GND  * 08     09 *    Q78

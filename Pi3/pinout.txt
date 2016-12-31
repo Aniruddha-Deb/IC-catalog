@@ -1,0 +1,46 @@
+Pi Pinout
+--------------------------------------------------------------------------------
+
+          3.3V              * 1      2  *          5.0V
+                SDA1 (I2C)  * 3      4  *          5.0V
+                SCL2 (I2C)  * 5      6  *          GND
+GPIO  7                     * 7      8  * GPIO 15
+          GND               * 9      10 * GPIO 16
+GPIO  0                     * 11     12 * GPIO  1
+GPIO  2                     * 13     14 *          GND
+GPIO  3                     * 15     16 * GPIO  4
+          3.3V              * 17     18 * GPIO  5
+                MOSI (SPI)  * 19     20 *          GND
+                MISO (SPI)  * 21     22 * GPIO  6
+                SCLK (SPI)  * 23     24 *               CE0 (SPI)
+          GND               * 25     26 *               CE1 (SPI)
+                        [X] * 27     28 * [X]
+GPIO 21                     * 29     30 *          GND
+GPIO 22                     * 31     32 * GPIO 26
+GPIO 23                     * 33     34 *          GND
+GPIO 24                     * 35     36 * GPIO 27
+GPIO 25                     * 37     38 * GPIO 28
+          GND               * 39     40 * GPIO 29
+
+--------------------------------------------------------------------------------
+
+3.3V        * 1      2  * 5.0V
+SDA1 (I2C)  * 3      4  * 5.0V
+SCL2 (I2C)  * 5      6  * GND
+GPIO  7     * 7      8  * GPIO 15
+GND         * 9      10 * GPIO 16
+GPIO  0     * 11     12 * GPIO  1
+GPIO  2     * 13     14 * GND
+GPIO  3     * 15     16 * GPIO  4
+3.3V        * 17     18 * GPIO  5
+MOSI (SPI)  * 19     20 * GND
+MISO (SPI)  * 21     22 * GPIO  6
+SCLK (SPI)  * 23     24 * CE0 (SPI)
+GND         * 25     26 * CE1 (SPI)
+[X] EEPROM  * 27     28 * [X] EEPROM
+GPIO 21     * 29     30 * GND
+GPIO 22     * 31     32 * GPIO 26
+GPIO 23     * 33     34 * GND
+GPIO 24     * 35     36 * GPIO 27
+GPIO 25     * 37     38 * GPIO 28
+GND         * 39     40 * GPIO 29          
