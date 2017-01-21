@@ -66,6 +66,7 @@ NAME     | QTY | PINS| DESCRIPTION              | DATASHEET
 ---------|-----|-----|--------------------------|-----------------------------------
 BT66     | 4   | 3   | Music chip               | [BT66](BT66/datasheet.pdf) 
 UM3561   | 5   | 8   | 3 sound siren generator  | [UM3561](3561/datasheet.pdf)     
+G1       | 1   | 12  | Custom guitar circuit    | [G1](GuitarMusicChip/pinout.txt)
 
 ### <a name="Digital"></a>Digital
 NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                         
