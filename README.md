@@ -35,9 +35,9 @@ NAME     | QTY | PINS| DESCRIPTION              | DATASHEET
 TLO72CP  | 5   | 8   | General Purpose Op Amp   | [TLO72CP](TLO72CP/datasheet.pdf)  
 TLC272CP | 1   | 8   | Rail to Rail Op Amps     | [TLC272](TLC272/datasheet.pdf)    
 LM324    | 1   | 14  | Quad op amp              | [LM324](LM324/datasheet.pdf)
-386N     | 5   | 8   | Audio power amplifier    | [386N](386N/datasheet.pdf)
+386N     | 4   | 8   | Audio power amplifier    | [386N](386N/datasheet.pdf)
 CPAP0332 | 2   | 14  | Power MOSFET array       | [CPAP0332](CPAP0332/datasheet.pdf)
-ULN2803  | 5   | 18  | Darlington array IC      | [ULN2803](ULN2803/datasheet.pdf)
+ULN2803  | 9   | 18  | Darlington array IC      | [ULN2803](ULN2803/datasheet.pdf)
 34063    | 5   | 8   | buck regulator           | [34063](34063/datasheet.pdf)
 380N     | 3   | 14  |2.5W audio power amplifier| [380N](380N/datasheet.pdf)
 UPC1185H | 1   | 12  | 7W dual power amplifier  | [UPC1185H](UPC1185H/datasheet.pdf)
@@ -52,14 +52,14 @@ NAME     | QTY | PINS| DESCRIPTION              | DATASHEET
 ---------|-----|-----|--------------------------|-----------------------------------
 74LS154  | 2   | 24  | 4 to 16 decoder          | [74154](74154/datasheet.pdf)      
 74LS47   | 2   | 16  | BCD to 7 segment decoder | [7447](7447/datasheet.pdf)        
-4511 	 | 1   | 16  | BCD to 7 segment decoder | [4511](4511/datasheet.pdf)		
+4511 	   | 1   | 16  | BCD to 7 segment decoder | [4511](4511/datasheet.pdf)		
 74LS139  | 2   | 16  | Dual 2 to 4 decoder      | [74139](74139/datasheet.pdf)      
 
 ### <a name="ShiftRegisters"></a>Shift Registers
 NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                        | Pinout    
 ---------|-----|-----|--------------------------|----------------------------------|------------------
 74194    | 10  | 16  | 4 bit <-> shift register | [74194](74194/datasheet.pdf)     | 
-74595    | 10  | 16  | 8 bit SIPO shift register| [74595](74595/datasheet.pdf)     | [74595](74595/pinout.txt)
+74595    | 7   | 16  | 8 bit SIPO shift register| [74595](74595/datasheet.pdf)     | [74595](74595/pinout.txt)
 74165    | 5   | 16  | 8 bit PISO shift register| [74165](74165/datasheet.pdf)     | [74165](74165/pinout.txt)
 
 ### <a name="Tone"></a>Tone
@@ -67,6 +67,7 @@ NAME     | QTY | PINS| DESCRIPTION              | DATASHEET
 ---------|-----|-----|--------------------------|-----------------------------------
 BT66     | 4   | 3   | Music chip               | [BT66](BT66/datasheet.pdf) 
 UM3561   | 5   | 8   | 3 sound siren generator  | [UM3561](3561/datasheet.pdf)     
+G1       | 1   | 12  | Custom guitar circuit    | [G1](GuitarMusicChip/pinout.txt)
 
 ### <a name="Digital"></a>Digital
 NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                         
@@ -76,7 +77,7 @@ NAME     | QTY | PINS| DESCRIPTION              | DATASHEET
 4011     | 2   | 14  | Quad NAND gate           | [4011](4011/datasheet.pdf)        
 LM339N   | 1   | 14  | Quad comparator          | [LM339N](LM339N/datasheet.pdf)    
 4013     | 1   | 14  | Dual flip flop           | [4013](4013/datasheet.pdf)
-4066     | 1   | 14  | Quad SPST analog switch  | [4066](4066/datasheet.pdf)        
+4066     | 21  | 14  | Quad SPST analog switch  | [4066](4066/datasheet.pdf)        
 74LS24   | 5   | 20  | 3 state octal buffer     | [7424](7424/datasheet.pdf)
 7404     | 5   | 14  | Hex inverter             | [7404](7404/datasheet.pdf)
 

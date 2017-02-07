@@ -1,0 +1,29 @@
+This is a custom (black dot) circuit salvaged from a play guitar. It has got
+
+* An array of 14 melodies with melody select and reset switches.
+* A set of three LEDs which are configured to light in accordance with melody beats
+* Speaker output (pre amplified) - no need to provide custom amplification
+* Tone by tone beat playing pins (active low)
+* Demo all pin
+
++---------------------------------+
+|              +---+              |
+|              |   |              |
+|              +---+              |
+|                                 | 
++---------------------------------+
+|  |  |  |  |  |  |  |  |   |  |  |
+1  2  3  4  5  6  7  8  9  10  11 12
+
+1 - GND
+2 - Vcc (5V)
+3 - I2 (Tone by tone play, active low)
+4 - Demo All
+5 - Song select
+6 - Reset
+7 - LED1 (current limiting resistor inbuilt)
+8 - LED2 (current limiting resistor inbuilt)
+9 - LED3 (current limiting resistor inbuilt)
+10- S1 (Speaker out 1)
+11- S2 (Speaker out 2)
+12- Not connected, redundant
