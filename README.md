@@ -8,11 +8,12 @@
 6. [Shift Registers](#ShiftRegisters)
 6. [Tone](#Tone)
 7. [Digital](#Digital)
+8. [Display](#Display)
 
 ### <a name="Timers"></a>Timers, Oscillators and Counters
 NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                   | Pinout      
 ---------|-----|-----|--------------------------|-----------------------------|---------------
-555      | 6   | 8   | Timer IC                 | [555](555/datasheet.pdf)    | 
+555      | 21  | 8   | Timer IC                 | [555](555/datasheet.pdf)    | 
 4060     | 4   | 16  | Ripple binary counter    | [4060](4060/datasheet.pdf)  | 
 4046     | 1   | 16  | Phase locked loop        | [4046](4046/datasheet.pdf)  | 
 4029     | 1   | 16  | Decade/Binary counter    | [4029](4029/datasheet.pdf)  | 
@@ -79,3 +80,7 @@ LM339N   | 1   | 14  | Quad comparator          | [LM339N](LM339N/datasheet.pdf)
 74LS24   | 5   | 20  | 3 state octal buffer     | [7424](7424/datasheet.pdf)
 7404     | 5   | 14  | Hex inverter             | [7404](7404/datasheet.pdf)
 
+### <a name="Display"></a>Display
+NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                         
+---------|-----|-----|--------------------------|-----------------------------------
+LM3915   | 5   | 18  | VU driver                | [LM3915](LM3915/datasheet.pdf)
