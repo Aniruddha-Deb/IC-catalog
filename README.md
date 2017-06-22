@@ -13,13 +13,15 @@
 10. [Microcontrollers](#Microcontrollers)
 
 ### <a name="Timers"></a>Timers, Oscillators and Counters
-NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                   | Pinout      
----------|-----|-----|--------------------------|-----------------------------|---------------
-555      | 22  | 8   | Timer IC                 | [555](555/datasheet.pdf)    | 
-4060     | 4   | 16  | Ripple binary counter    | [4060](4060/datasheet.pdf)  | 
-4046     | 1   | 16  | Phase locked loop        | [4046](4046/datasheet.pdf)  | 
-4029     | 1   | 16  | Decade/Binary counter    | [4029](4029/datasheet.pdf)  | 
-4017     | 6   | 16  | decade counter           | [4017](4017/datasheet.pdf)  | [4017](4017/pinout.txt)
+NAME     | QTY | PINS| DESCRIPTION              | DATASHEET                     | Pinout      
+---------|-----|-----|--------------------------|-------------------------------|---------------
+555      | 22  | 8   | Timer IC                 | [555](555/datasheet.pdf)      | 
+7555CN   | 8   | 8   | Timer IC                 | [7555CN](7555CN/datasheet.pdf)| 
+1307     | 8   | 8   | Clock IC                 | [1307](1307/datasheet.pdf)| 
+4060     | 4   | 16  | Ripple binary counter    | [4060](4060/datasheet.pdf)    | 
+4046     | 1   | 16  | Phase locked loop        | [4046](4046/datasheet.pdf)    | 
+4029     | 1   | 16  | Decade/Binary counter    | [4029](4029/datasheet.pdf)    | 
+4017     | 6   | 16  | decade counter           | [4017](4017/datasheet.pdf)    | [4017](4017/pinout.txt)
 
 
 ### <a name="VoltageRegulators"></a>Voltage Regulators
@@ -101,6 +103,7 @@ IR2110   | 5   | 16  | MOSFET driver            | [IR2110](IR2110/datasheet.pdf)
 NAME       | QTY | PINS| DESCRIPTION              | DATASHEET                         
 -----------|-----|-----|--------------------------|-----------------------------------
 PIC16F877A | 3   | 40  | PIC family large         | [PIC16F877A](PIC16F877A/datasheet.pdf)
+ATMega8A   | 9   | 28  | Atmel family medium      | [ATMega8A](ATMega8A/datasheet.pdf)
 ATMega16A  | 5   | 40  | Atmel family large       | [ATMega16A](ATMega16A/datasheet.pdf)
 ATMega328  | 5   | 28  | Atmel family medium      | [ATMega328](ATMega328/datasheet.pdf)
 PIC16F688  | 2   | 14  | PIC family small         | [PIC16F688](PIC16F688/datasheet.pdf)
